@@ -1,9 +1,12 @@
 # Couger research paper
 
 ## [2020.06.16 : A Multi-Level Supervision Model: A novel approach for Thermal Image Super Resolution](https://couger.co.jp/paper/cvpr2020.pdf)
+This paper proposes a novel architecture for thermal image super-resolution. The proposed architecture is based on the residual blocks as the base units of the network. Along with this, the coordinate convolution layer and the convolutional block attention Module (CBAM) are also used in the architecture. Further, the multi-level supervision is implemented to supervise the output image resolution similarity with the real image at each block during training. To test the robustness of the proposed model, we evaluated our model on the Thermal-6 dataset [13]. The results show that our model is efficient to achieve the state of art results on the PBVS’2020 dataset. Further the results on the Thermal-6 dataset show that the model has a decent generalization capacity.
 
 
 ## [2019.10.16 : Eyenet: Attention based Convolutional Encoder-Decoder Network for Eye Region Segmentation ](https://couger.co.jp/paper/facebook_ai.pdf)
+With the immersive development in the field of augmented and virtual reality, accurate and speedy eye-tracking is required. Facebook Research has organized a challenge, named OpenEDS Semantic Segmentation challenge for per-pixel segmentation of the key eye regions: the sclera, the iris, the pupil, and everything else (background). Our model, named EyeNet, includes modified residual units as the backbone, two types of attention blocks and multi-scale supervision for segmenting the aforesaid four eye regions. Our proposed model achieved a total score of 0.974(EDS Evaluation metric) on test data, which demonstrates superior results compared to the baseline methods
 
 
 ## [2019.05.21 : SkeletonNet: Shape Pixel to Skeleton Pixel ](https://couger.co.jp/paper/cvpr2019.pdf)
+Deep Learning for Geometric Shape Understating has organized a challenge for extracting different kinds of skeletons from the images of different objects. This competition is organized in association with CVPR 2019. In our proposed architecture, unlike the plain decoder in the traditional U net, we have designed the decoder in the format of HED architecture, wherein we have introduced 4 side layers and fused them to one dilation convolutional layer to connect the broken links of the skeleton. Our proposed architecture achieved the F1 score of 0.77 on test data. 
