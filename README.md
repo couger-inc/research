@@ -23,5 +23,5 @@ Deep Learning for Geometric Shape Understating has organized a challenge for ext
 
 # Collaborative research paper
 
-## [2022.12.01 : Rethinking Offensive Text Detection as a Multi-Hop Reasoning Problem ](https://couger.co.jp/paper/2022.findings-acl.307.pdf)
+## [2022.05.22 : Rethinking Offensive Text Detection as a Multi-Hop Reasoning Problem ](https://couger.co.jp/paper/2022.findings-acl.307.pdf)
 We introduce the task of implicit offensive text detection in dialogues, where a statement may have either an offensive or non-offensive interpretation, depending on the listener and context. We argue that reasoning is crucial for understanding this broader class of offensive utterances and release SLIGHT, a dataset to support research on this task. Experiments using the data show that state-of-the-art methods of offense detection perform poorly when asked to detect implicitly offensive statements, achieving only ∼11% accuracy. 
