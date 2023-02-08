@@ -19,3 +19,9 @@ With the immersive development in the field of augmented and virtual reality, ac
 
 ## [2019.05.21 : SkeletonNet: Shape Pixel to Skeleton Pixel ](https://couger.co.jp/paper/cvpr2019.pdf)
 Deep Learning for Geometric Shape Understating has organized a challenge for extracting different kinds of skeletons from the images of different objects. This competition is organized in association with CVPR 2019. In our proposed architecture, unlike the plain decoder in the traditional U net, we have designed the decoder in the format of HED architecture, wherein we have introduced 4 side layers and fused them to one dilation convolutional layer to connect the broken links of the skeleton. Our proposed architecture achieved the F1 score of 0.77 on test data. 
+
+
+# Collaborative research paper
+
+## [2022.12.01 : Rethinking Offensive Text Detection as a Multi-Hop Reasoning Problem ](https://couger.co.jp/paper/2022.findings-acl.307.pdf)
+We introduce the task of implicit offensive text detection in dialogues, where a statement may have either an offensive or non-offensive interpretation, depending on the listener and context. We argue that reasoning is crucial for understanding this broader class of offensive utterances and release SLIGHT, a dataset to support research on this task. Experiments using the data show that state-of-the-art methods of offense detection perform poorly when asked to detect implicitly offensive statements, achieving only ∼11% accuracy. 
